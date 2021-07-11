@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="calculator">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header class="title">
+            <h1>CALCULATOR</h1>
+        </header>
+        <main class="bg1">
+            <section class="inputs">
+                <div>
+                    <h4>NUM 1</h4> 
+                    <input type="number" id="input1" placeholder="Enter a number">
+                </div>
+                <div>
+                    <h4>NUM 2</h4>
+                    <input type="number" id="input2" placeholder="Enter a number">
+                </div>
+            </section>
+
+            <section class="operators">
+                <h4 class="info">- - Click an operation - -</h4>
+                <div class="buttons">
+                    <button type="button" id="add" class="button operator">ADD</button>
+                    <button type="button" id="sub" class="button operator">SUBTRACT</button>
+                    <button type="button" id="multiply" class="button operator">MULTIPLY</button>
+                    <button type="button" id="div" class="button operator">DIVIDE</button>
+                    <button type="button" id="clr" class="button clr">CLR</button>
+                </div>
+            </section>
+
+            <section class="result">
+                <h4>RESULT</h4>
+                <div id="answer" class="screen"></div>
+            </section>
+        </main>
+        <script src="app.js"></script>
+
+    </body>
+</html>
